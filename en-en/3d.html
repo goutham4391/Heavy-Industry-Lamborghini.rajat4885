@@ -1,0 +1,558 @@
+
+<!DOCTYPE html><html class="pagetextsize0 pagetextcontrast0 transition-normal" lang="en">
+<!-- Mirrored from www.lamborghini.com/en-en/3d by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 03 Oct 2022 19:29:44 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head><!-- HTTP_X_COUNTRY_CODE="global" --><meta charset="UTF-8"/><script type="text/javascript" src="../themes/custom/lambo_facelift_2019/apm/newrelic-prod.js"></script><script type="text/javascript">
+  if (newrelic) {
+    newrelic.setCustomAttribute('customPageType', 'drupal8');
+  }
+</script><!-- OneTrust Cookies Consent Notice start for lamborghini.com --><script type="text/javascript" src="../../cdn.cookielaw.org/consent/a694e4a8-d51f-44c4-adf0-838069538060/OtAutoBlock.js" async></script><script src="../../cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-document-language="true" type="text/javascript" charset="UTF-8" data-domain-script="a694e4a8-d51f-44c4-adf0-838069538060" async></script><script type="text/javascript">
+  function OptanonWrapper() {
+    handleScroll();
+  }
+
+  // Yeah, this code is shitty, but it's from here: https://community.cookiepro.com/s/article/UUID-534defd9-7ec8-fc0e-78bf-8dce8c6c5593
+  // WARNING: The documentation is wrong! "pcSaveBtn" doesn't have the class "button-theme"
+  // WARNING: The documentation is wrong! The event on "pcSaveBtn" is never called :(
+  function addBannerStatusEventListener(callback) {
+    function getCookie(name) {
+      const value = `; ${document.cookie}`;
+      const parts = value.split(`; ${name}=`);
+      if (parts.length === 2) return parts.pop().split(";").shift();
+      return null;
+    }
+
+    const bannerAcceptBtn = document.getElementById("onetrust-accept-btn-handler");
+    const bannerCloseBtn = document.getElementsByClassName("onetrust-close-btn-handler banner-close-button")[0];
+    const pcAllowAllBtn = document.getElementById("accept-recommended-btn-handler");
+    const pcSaveBtn = document.getElementsByClassName("save-preference-btn-handler onetrust-close-btn-handler")[0];
+
+    // const OABCcookieName = "OptanonAlertBoxClosed";
+    // const OABCcookie = getCookie(OABCcookieName);
+
+    if (bannerAcceptBtn) {
+      bannerAcceptBtn.addEventListener('click', function () {
+        console.log("Cookie Banner - Allowed all via Banner");
+        callback();
+      });
+    } else {
+      console.error('Cookie Banner - Click listener not set on "bannerAcceptBtn"');
+    }
+
+    if (bannerCloseBtn) {
+      bannerCloseBtn.addEventListener('click', function () {
+        console.log("Cookie Banner - Banner closed");
+        callback();
+      });
+    } else {
+      console.error('Cookie Banner - Click listener not set on "bannerCloseBtn"');
+    }
+
+    if (pcAllowAllBtn) {
+      pcAllowAllBtn.addEventListener('click', function () {
+        console.log("Cookie Banner - Allowed all via Preference Center");
+        callback();
+      });
+    } else {
+      console.error('Cookie Banner - Click listener not set on "pcAllowAllBtn"');
+    }
+
+    if (pcSaveBtn) {
+      pcSaveBtn.addEventListener('click', function () {
+        console.log("Cookie Banner - Set custom settings via Preference Center");
+        callback();
+      });
+    } else {
+      console.error('Cookie Banner - Click listener not set on "pcSaveBtn"');
+    }
+  }
+
+  function handleScroll() {
+    // Do nothing if the banner is already closed
+    if (Optanon.IsAlertBoxClosed()) return;
+
+    // Disable scroll
+    document.body.style.overflowY = 'hidden';
+    // document.body.style.position = 'fixed'; // fix iOS
+
+    window.dispatchEvent(new Event('resize'));
+
+    addBannerStatusEventListener(() => {
+      // Always enable scroll on click
+      // const closed = Optanon.IsAlertBoxClosed();
+      // if (!closed) {
+      //   console.warn('Cookie Banner - not closed')
+      //   return;
+      // }
+
+      // Enable scroll
+      document.body.style.overflowY = 'auto';
+      // document.body.style.position = ''; // fix iOS
+    });
+  }
+
+</script><!-- OneTrust Cookies Consent Notice end for lamborghini.com --><style>
+  body #onetrust-consent-sdk #onetrust-banner-sdk {
+    background-color: #181818
+  }
+  body #onetrust-consent-sdk #onetrust-accept-btn-handler {
+    border-radius: 0;
+    font-family: Roboto;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    background: 0 0;
+    border: solid 1px #fff !important;
+    color: #fff;
+    padding: 12px 10px
+  }
+  body #onetrust-consent-sdk #onetrust-accept-btn-handler:hover {
+    background-color: #fff !important;
+    color: #000 !important
+  }
+  body #onetrust-consent-sdk #onetrust-pc-sdk #accept-recommended-btn-handler {
+    border-radius: 0;
+    font-family: Roboto;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    background-color: #202020 !important;
+    border: solid 1px #fff !important;
+    color: #fff !important;
+    padding: 12px 10px
+  }
+  body #onetrust-consent-sdk #onetrust-pc-btn-handler.cookie-setting-link {
+    width: auto !important
+  }
+  body #onetrust-consent-sdk #onetrust-pc-btn-handler.cookie-setting-link,
+  body #onetrust-consent-sdk #onetrust-pc-sdk button.save-preference-btn-handler {
+    background: 0 0;
+    color: #fff;
+    font-family: Roboto;
+    text-decoration: none;
+    min-width: 0;
+    margin-right: 20px;
+    padding: 12px 2px;
+    position: relative;
+    font-weight: 500
+  }
+  body #onetrust-consent-sdk #onetrust-pc-btn-handler.cookie-setting-link {
+    opacity: .5
+  }
+  body #onetrust-consent-sdk #onetrust-pc-sdk button.save-preference-btn-handler {
+    opacity: 1
+  }
+  body #onetrust-pc-btn-handler::before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    bottom: 9px;
+    left: 0
+  }
+  body #onetrust-consent-sdk #onetrust-pc-btn-handler.cookie-setting-link:hover,
+  body #onetrust-consent-sdk #onetrust-pc-sdk button.save-preference-btn-handler:hover {
+    opacity: .7
+  }
+  body #onetrust-consent-sdk #onetrust-policy-text {
+    color: #fff;
+    opacity: .5;
+    margin-bottom: 0;
+    font-weight: 300
+  }
+  body #onetrust-banner-sdk #onetrust-policy {
+    margin: 2em 0 2em 2em
+  }
+  body #onetrust-pc-sdk .ot-cat-grp .ot-always-active {
+    color: #181818
+  }
+  body #onetrust-pc-sdk .ot-tgl input:checked+.ot-switch .ot-switch-nob {
+    background-color: #fff;
+    border: 1px solid #181818
+  }
+  body #onetrust-pc-sdk .ot-tgl input:checked+.ot-switch .ot-switch-nob:before {
+    background-color: #181818;
+    border-color: #181818
+  }
+  body #onetrust-pc-sdk .ot-pc-logo {
+    background-image: url('../themes/custom/lambo_facelift_2019/images/logo.png') !important;
+    background-position: left center;
+    height: 60px
+  }
+  body #onetrust-pc-sdk .ot-pc-header {
+    height: 59px
+  }
+  body #onetrust-pc-sdk #ot-pc-content {
+    top: 80px
+  }
+  @media screen and(max-width:767px) {
+    body #onetrust-banner-sdk #onetrust-button-group {
+      display: flex;
+      flex-direction: column;
+      align-items: center
+    }
+    body #onetrust-banner-sdk #onetrust-button-group button {
+      margin-right: 0 !important
+    }
+  }
+</style><script>dataLayer = [{'pageCategory': 'virtual_platform','pageSubCategory': 'PAGE - VIRTUAL PLATFORM - 3D','pageLanguage': 'en','userCountry': '','memberType': 'NoLogged','page404':'false','articleTag':''}];</script><!-- Google Tag Manager --><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'../../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KKLP');</script><!-- End Google Tag Manager --><script>
+    (function(i,s,o,b,g,r,p,a,m){i['aggrObjName']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();i['aggrApp']=p;a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=(g);m.parentNode.insertBefore(a,m); i[r].aggregatorServerRoot = b; })(window,document,'script','https://rum.lamborghini.com/c1','../rum/client.js','statsCli','lamborghiniCom');
+  </script><title>Lamborghini Huracán STO 2020</title><link rel="canonical" href="3d.html"/><meta name="description" content="Discover the new Huracán STO"/><meta name="robots" content="follow,index"/><meta property="og:description" content="Discover the new Huracán STO"/><meta property="og:image" content="https://www.lamborghini.com/sites/it-en/files/2020-11/Unveil_New_Huracan%20STO_3.jpg"/><meta property="og:site_name" content="Lamborghini"/><meta property="og:title" content="Lamborghini Huracán STO 2020"/><meta property="og:type" content="website"/><meta property="og:url" content="https://www.lamborghini.com/en-en/3d?unveil=vM2I9vY6gD6gQbM7cy9mW8qA9R2L8eX1zKx7zA3bV5yC_1605715200"/><meta name="twitter:creator" content="@lamborghini"/><meta name="twitter:description" content="Discover the new Huracán STO"/><meta name="twitter:image" content="https://www.lamborghini.com/sites/it-en/files/2020-11/Unveil_New_Huracan%20STO_4.jpg"/><meta name="twitter:site" content="https://www.lamborghini.com/en-en/3d?unveil=vM2I9vY6gD6gQbM7cy9mW8qA9R2L8eX1zKx7zA3bV5yC_1605715200"/><meta name="twitter:title" content="Lamborghini Huracán STO 2020"/><meta name="twitter:card" content="summary_large_image"/><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/><link rel="apple-touch-icon" sizes="57x57" href="../themes/custom/lambo/ico/apple-touch-icon-57x57.jpg"/><link rel="apple-touch-icon" sizes="60x60" href="../themes/custom/lambo/ico/apple-touch-icon-60x60.jpg"/><link rel="apple-touch-icon" sizes="72x72" href="../themes/custom/lambo/ico/apple-touch-icon-72x72.jpg"/><link rel="apple-touch-icon" sizes="76x76" href="../themes/custom/lambo/ico/apple-touch-icon-76x76.jpg"/><link rel="apple-touch-icon" sizes="114x114" href="../themes/custom/lambo/ico/apple-touch-icon-114x114.jpg"/><link rel="apple-touch-icon" sizes="120x120" href="../themes/custom/lambo/ico/apple-touch-icon-120x120.jpg"/><link rel="apple-touch-icon" sizes="144x144" href="../themes/custom/lambo/ico/apple-touch-icon-144x144.jpg"/><link rel="apple-touch-icon" sizes="152x152" href="../themes/custom/lambo/ico/apple-touch-icon-152x152.jpg"/><link rel="apple-touch-icon" sizes="180x180" href="../themes/custom/lambo/ico/apple-touch-icon-180x180.jpg"/><link rel="icon" type="image/png" href="../themes/custom/lambo/ico/favicon-32x32.jpg" sizes="32x32"/><link rel="icon" type="image/png" href="../themes/custom/lambo/ico/android-chrome-192x192.jpg" sizes="192x192"/><link rel="icon" type="image/png" href="../themes/custom/lambo/ico/favicon-96x96.jpg" sizes="96x96"/><link rel="icon" type="image/png" href="../themes/custom/lambo/ico/favicon-16x16.jpg" sizes="16x16"/><link rel="manifest" href="../themes/custom/lambo/ico/manifest.json"/><link rel="mask-icon" href="../themes/custom/lambo/ico/safari-pinned-tab.svg" color="#000000"/><link rel="shortcut icon" href="../themes/custom/lambo/ico/favicon.ico"/><meta name="msapplication-TileColor" content="#da532c"/><meta name="msapplication-TileImage" content="/themes/custom/lambo/ico/mstile-144x144.png"/><meta name="msapplication-config" content="/themes/custom/lambo/ico/browserconfig.xml"/><meta name="theme-color" content="#000000"/><meta name="format-detection" content="telephone=no"/><meta name="twitter:card" content="summary_large_image"/><!-- DRUPAL --><meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="../favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" hreflang="it" href="../it-en/3d.html" />
+<link rel="alternate" hreflang="en" href="3d.html" />
+<link rel="alternate" hreflang="fr" href="../fr-en/3d.html" />
+<link rel="alternate" hreflang="es" href="../es-en/3d.html" />
+<link rel="alternate" hreflang="de" href="../de-en/3d.html" />
+<link rel="alternate" hreflang="zh-hans" href="../cn-en/3d.html" />
+<link rel="alternate" hreflang="ja" href="../jp-en/3d.html" />
+<link rel="alternate" hreflang="ru" href="../ru-en/3d.html" />
+<link rel="stylesheet" media="all" href="../themes/custom/lambo_facelift_2019/libraries/lazyload/css/lazyloadb5ff.css?rcspmn" />
+<link rel="stylesheet" media="all" href="../themes/custom/lambo_facelift_2019/libraries/bootstrap/css/bootstrapb5ff.css?rcspmn" />
+<link rel="stylesheet" media="all" href="../themes/custom/lambo_facelift_2019/libraries/fontello/css/fontellob5ff.css?rcspmn" />
+<link rel="stylesheet" media="all" href="../themes/custom/lambo_facelift_2019/libraries/fontello/css/fontello2b5ff.css?rcspmn" />
+<link rel="stylesheet" media="all" href="../themes/custom/lambo_facelift_2019/libraries/smooth-scrolling/css/smooth-scrollingb5ff.css?rcspmn" />
+<link rel="stylesheet" media="all" href="../themes/custom/lambo_facelift_2019/libraries/exagon/css/exagonb5ff.css?rcspmn" />
+<link rel="stylesheet" media="all" href="../themes/custom/lambo_facelift_2019/libraries/modals/css/modalsb5ff.css?rcspmn" />
+<link rel="stylesheet" media="all" href="../themes/custom/lambo_facelift_2019/libraries/global/css/stylesb5ff.css?rcspmn" />
+<link rel="stylesheet" media="all" href="../themes/custom/lambo_facelift_2019/libraries/emissions/css/emissionsb5ff.css?rcspmn" />
+<link rel="stylesheet" media="all" href="../themes/custom/lambo_facelift_2019/libraries/spinner/css/spinnerb5ff.css?rcspmn" />
+<link rel="stylesheet" media="all" href="../themes/custom/lambo_facelift_2019/libraries/iframeLoader/css/iframeLoaderb5ff.css?rcspmn" />
+<link rel="stylesheet" media="all" href="../themes/custom/lambo_facelift_2019/libraries/font-awesome/css/font-awesomeb5ff.css?rcspmn" />
+<link rel="stylesheet" media="all" href="../themes/custom/lambo_facelift_2019/libraries/hamburger/css/hamburgerb5ff.css?rcspmn" />
+<link rel="stylesheet" media="all" href="../themes/custom/lambo_facelift_2019/libraries/overlay/css/overlayb5ff.css?rcspmn" />
+<link rel="stylesheet" media="all" href="../themes/custom/lambo_facelift_2019/libraries/header/css/headerb5ff.css?rcspmn" />
+
+<!--[if lte IE 8]>
+<script src="/core/assets/vendor/html5shiv/html5shiv.min.js?v=3.7.3"></script>
+<![endif]-->
+<script src="../themes/custom/lambo_facelift_2019/libraries/modernizr/js/modernizr.min45e0.js?v=3.6.0"></script>
+<script src="../../mediawls-meride-tv.akamaized.net/scripts/latest/embed.js"></script>
+<script src="../sites/it-en/files/js_assets/merideb5ff.js?rcspmn"></script>
+<!-- DRUPAL - END --><style>html.ng-scope #toolbar-administration,
+html.layout-desktop #toolbar-administration,
+html.layout-mobile #toolbar-administration{
+display:none;
+}
+
+html.ng-scope a[href].btn{
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+html.ng-scope .body > .emissions > p{
+    font-size: 16px !important;
+    line-height: 18px;
+}
+html.ng-scope .body > .emissions{
+padding: .5rem;
+}
+
+#driving-dynamics .otherComponents{
+display: none;
+}
+
+header{
+width:100%
+}
+
+@media (max-width: 1024.98px) {
+    footer .content {
+        padding-bottom: 11rem;
+    }
+}
+
+
+@media (max-width: 600px){
+.banner>div .link h2{
+font-size: 3.5rem;
+}
+}
+
+
+@media (max-width: 1365.98px){
+header nav>ul>li a span {
+    font-size: 1.25rem;
+}
+}
+
+
+
+footer a{
+white-space:nowrap;
+}
+
+#model-chooser .desktop .controls{
+text-align:center;
+}
+
+@media (max-width: 669px){
+  #locator.holder-locator .search-bar.mobile{
+    width: calc(100% - 20px);
+  }
+  #locator.holder-locator .search-bar.mobile #suggestion-mobile{
+    list-style: none;
+  }
+  
+  #locator.holder-locator .sidebar{
+    margin-top: 0;
+    height: auto;
+  }
+  #locator.holder-locator .map{
+    top: auto  !important;
+    height: 220px !important ;
+  }
+}
+
+header #overlay-burger-mobile .content{
+    height: calc(100% - 65px) !important;
+}
+
+#families-gallery .families-gallery-texts .button-wrapper:not(.explore-models):not(.explore-model){
+display:none;
+}
+
+#news.list #load-more-news.visible{
+margin: 0 auto 6rem auto;
+display: block;
+}
+
+
+
+.block1 > div .column h6.taxi,
+.block1 > div .column h6.air,
+.block1 > div .column h6.bus {
+    padding-bottom: 3rem;
+}
+
+
+.page-node-type-careers .block4 > div > div span{
+color:black;
+}
+
+#news .image:not(.img-loading){ 
+ opacity: 1;
+}
+
+#news .model-gallery .meride-video-container .otherComponents {
+    display: block !important;
+}
+#news #breadcrumbs{
+opacity:1;
+visibility: visible;
+}
+ 
+.page-node-type-museum #content .carousel-top .boxcontent p{
+font-family: arial;
+}
+@media (min-width: 1921px){
+.car-pre-configurator .desktop .controls{
+min-height: 900px;
+}
+}
+header #overlay-burger .right a svg,
+footer .social a svg{ 
+position:relative;
+}
+
+.page-node-type-masterpiece .carousel-top > a.full:not([href]){
+display: none;
+}
+
+.page-node-type-dealer #block1 .actions .btn span{
+ color: white;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  section.augmented-reality > .container-fluid > .row > .align-items-center > .row.no-gutters.align-items-center{
+     width: 100%;
+  }
+
+  section.motor-sound-images > .desktop > .texts{
+    margin-bottom: 3rem;
+  }
+  section.motor-sound-images > .desktop > .texts .col-5{
+    display: none;
+  }
+  section.motor-sound-images > .desktop > .texts .col-6{
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  section.families-gallery.desktop .family-wrapper .accordion-content{
+    margin-top: 2rem;
+  }
+}
+
+html[ng-app] .page-node-type-company .block1 .directions .field{
+  width: 40rem;
+}
+
+.club-form section.basics .logo{
+  min-height: 18rem;
+}
+
+ [id="10864"] .right.flex-fill > .d-flex.flex-column > div:first-of-type a,
+ [id="10865"] .right.flex-fill > .d-flex.flex-column > div:first-of-type a,
+[id="10110"] .right.flex-fill > .d-flex.flex-column > div:first-of-type a, 
+[id="10407"] .right.flex-fill > .d-flex.flex-column > div:first-of-type a,
+[id="10440"] .right.flex-fill > .d-flex.flex-column > div:first-of-type a, 
+[id="9739"] .right.flex-fill > .d-flex.flex-column > div:first-of-type a,
+[id="9740"] .right.flex-fill > .d-flex.flex-column > div:first-of-type a,
+[id="10880"] .right.flex-fill > .d-flex.flex-column > div:first-of-type a,
+[id="10466"] .right.flex-fill > .d-flex.flex-column > div:first-of-type a,
+[id="9919"] .right.flex-fill > .d-flex.flex-column > div:first-of-type a,
+[id="10207"] .right.flex-fill > .d-flex.flex-column > div:first-of-type a{
+  min-height: 6rem;
+  opacity: 0 !important;
+}
+
+section.car-pre-configurator .configurator-link{
+  display: none !important;
+}
+
+div.dealer-page section.block-img-sx-text-dx .texts-wrapper .links{
+  visibility: hidden;
+}
+
+.icon-button svg{
+  min-width: 5rem;
+  min-height: 5rem;
+}
+
+@media (max-width: 1024.98px){
+  .circuit-details .table .logo img {
+    height: auto;
+    max-width: 40rem;
+  }
+}
+@media (max-width: 768px){
+  .circuit-details .table .logo img {
+    height: auto;
+    max-width: 23rem;
+  }
+}
+
+
+
+.save-the-date-dropdown .dropdown-menu{
+    background-color: rgba(0,0,0,.9);
+}
+.circuits .save-the-date-dropdown .dropdown-menu{
+    background-color: rgba(255,255,255,1) !important;
+}
+
+
+
+
+@media (max-width: 600px){
+.homepage .hero-banner {
+overflow: visible !important;
+}
+}
+
+
+section.hero-banner a.anchor-wrapper:not([href]){
+  opacity: 0;
+}
+
+@media only screen and (max-width: 669px) {
+   .page-node-type-careers #block0 {
+     height: auto !important;
+   }
+  .page-node-type-careers .block0 .col .boxcontent {
+    margin-bottom: 6rem;
+  }
+}
+.header-banner>button.header-banner-trigger.dsk{
+  visibility: hidden;
+  transition: bottom .5s ease-out, opacity .4s ease-out, visibility .4s ease-out;
+}
+.header-banner.on>button.header-banner-trigger.dsk{
+  visibility: visible;
+}
+header>.hb-trigger button.header-banner-trigger.dsk .banner .ie-text{display:none}
+.ie header>.hb-trigger button.header-banner-trigger.dsk{max-width:182px}.ie header>.hb-trigger button.header-banner-trigger>svg.decoration{position:absolute!important;max-width:23px}.ie header>.hb-trigger button.header-banner-trigger>svg.decoration.big{max-width:32px}.edge header>.hb-trigger button.header-banner-trigger.dsk .banner .ie-text,.ie header>.hb-trigger button.header-banner-trigger.dsk .banner .ie-text{display:block}.edge header>.hb-trigger button.header-banner-trigger.dsk .banner .default-text,.ie header>.hb-trigger button.header-banner-trigger.dsk .banner .default-text{display:none}
+html[ng-app] header .burger-menu .content .footer .socials a.tiktok.fa > svg{
+  position: relative;
+}
+
+.emissions-banner{
+line-height: 2rem;
+}</style>
+                              <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="BLNKS-LFKQX-FP5ZV-DX2VK-AJ3AT",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"BLNKS-LFKQX-FP5ZV-DX2VK-AJ3AT",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="geslcfyx2vcx4yz3ggvq-f-3ce354fb9-clientnsv4-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"32","ak.cp":"648985","ak.ai":parseInt("422642",10),"ak.ol":"0","ak.cr":57,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"3469c3a","ak.r":31510,"ak.a2":e,"ak.m":"x","ak.n":"essl","ak.bpcip":"49.36.177.0","ak.cport":63581,"ak.gh":"49.44.136.220","ak.quicv":"","ak.tlsv":"tls1.2","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1664823723","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==ay/zAcEn8hW7JpBC7ZqJ6bVotlgUwRxJgbNtmR7MtLHiPmZysMlfVyGVUvvc0CzhT0HrPTcYVx9+u9UUJPNlNZ+kC8hh+qLCMgkBES0NqJ5eBrmOOyyJ2k91PlP6WcGQKLi7HXaK9uEJj7r296sA6dQfEUEFZ/L18Ti0xV0afpfER2tqoglR/GGKIa7y51XPohYykbQh6fmUDUFOch+ouA8qMlpM8u9sqfVuQxQdDjhra9j3HbAznSc8Op/zChLjvg1MaZi9rsDcPQmyfpE+DZ3IL7njx9oXCU4qlBfKsKIVoAWZW78dAUdOByXXyx88cfTx1CxtPdhHUh/qR4l2NYBmhBP4+zhEBp1mrxHfe7v2BpvetCfD3J8LaS4WlMJeSKExBrqctIyCiLBBfyIHou9FNP+7oUcssaLxBuK7Fqc=","ak.pv":"152","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.html","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak-2.html","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head><body data-lazy="image"><!-- Google Tag Manager (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KKLP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- End Google Tag Manager (noscript) --><!-- 8.9.10 --><div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas><div  id="scroll-container" class="virtual-platform"><div id="page"><link rel="stylesheet" media="all" href="../sites/it-en/files/js_assets/experience/experience_Fv01sF4z816X79ef.css?tk=f31f26b30d073d7bab41d6ab4198a4b1"><div id="root"></div><section class="iframe-wrapper hidden sto-3d" id="iframe"><div class="wrapper"><div class="linear-spinner iframe-spinner"></div><div class="close-element"><h2>Contact us</h2><button class="exagon" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.464 58.271"><g stroke-width="1" transform="translate(-1624 -187.923)"><path class="background" d="M50.464 43.992L25.732 58.271 1 43.992V15.434L25.732 1.155l24.732 14.279z" transform="translate(1623.5 187.345)"/><g class="foreground" transform="translate(.5 .5)"><path d="M14 14L0 0" transform="translate(1641.5 209.5)"/><path d="M0 14L14 0" transform="translate(1641.5 209.5)"/></g></g></svg></button><button class="btn-close"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 15 15"><path d="M0 0 L0 0 15 15 M15 0 L15 0 0 15"/></svg></button></div><div class="form payload"><iframe data-src="/en-en/resource/form/virtual_platform/iframe" frameborder="0"></iframe></div></div></section><style type="text/css">
+.dialog-off-canvas-main-canvas>.emissions-banner{
+  padding: 5px !important;
+  font-size: 12px !important;
+}
+</style><script type="text/javascript">window.__AQ_DATA = {"currentLanguage":"en","secondsToUnveil":-58742528,"icsFilename":"\/sites\/it-en\/files\/js_assets","refreshQueryString":"unveil=vM2I9vY6gD6gQbM7cy9mW8qA9R2L8eX1zKx7zA3bV5yC_1605715200","hideForm":false,"timeStampUnveiling":"1605715200","labels":{"startUnveil":"Start the experience ","skipIntro":"Skip intro","loading":"Loading Experience","reviewUnveil":"Relive the unveil ","ar":"AR Experience","share":"Share","contactUs":"Contact us","discoverMore":"Menu","corporateName":"Model page","corporateUrl":"https:\/\/www.lamborghini.com\/en-en\/models\/huracan\/huracan-sto","shareExperience":"Share the experience","facebook":"Facebook","twitter":"Twitter","copyLink":"Copy Link","scanQrCode":"Scan QR Code","viewStoAr":"View the Hurac\u00e1n STO<br \/>in augmented reality","lightweightApproach":"Lightweight approach","breakingFeeling":"Braking feeling","aerodynamic":"Aerodynamic","drivingDynamics":"Driving Dynamics","connectedTelemetry":"Connected Telemetry","doorDx":"Right Door","doorSx":"Left Door","daytona":"Daytona","pilots":"Drivers","sannaMapelli":"Squadra Corse highlights","csrRacing":"CSR Racing","fortnite":"Fortnite","carSketches":"Car sketches","engineSound":"Engine sound","daytonaWin1":"Daytona Trophies 2018","daytonaWin2":"Daytona Trophies 2019","daytonaWin3":"Daytona Trophies 2020","lang":"Languages and Subtitles","languages":"Languages","info":"Info","infoContent":"<b>\u00a92020 Automobili Lamborghini S.p.A<\/b><br>a sole shareholder company part of Audi Group<br>All rights reserved. VAT no. IT 00591801204","subtitles":"Subtitles","fortniteLinkLabel":"Play Fortnite","csrRacingLinkLabel":"Go play CSR","escOn":"(ABS, TCS, TV)","escOff":"(ABS, TCS, TV)","escDisabled":"(Disabled Mode)","abs":"(Anti Brake-Locking System)","tcs":"(Traction Control System)","tv":"(Torque Vectoring by brake)","rws":"(Rear Wheel Steering)","tpf":"(Throttle Pedal Feeling)","gr":"(Gearbox Reaction)","damping":"Damping","dampingSto":"(Reduced harshness filtering road copying effect)","dampingPioggia":"(Improved load-transfer control)","dampingTrofeo":"(Improved body control to maximize underfloor efficiency)","useHeadphone":"Use Headphone<br>for a better audio experience","chapter":"Chapters","chapterOne":"Intro","chapterTwo":"Hurac\u00e1n STO film","chapterThree":"Technical presentation","cofango":"Cofango","disable":"Disable","rotateYourDevice":"Rotate your device","play":"Play","arSocialWarning":"AR requires Chrome or Safari to work correctly","slowNetworkError":"Ops!<br\/>The network connection is slow.","tryReload":"Try to reload","banner":"Not all contents are available in all markets. Please check with your local Lamborghini Dealer for details and availability."},"path":{"assetsServerPath":"\/data\/www\/lamborghini\/htdocs\/sites\/it-en\/files\/js_assets\/experience","files":{"2":"_old_meridecc.js","3":"assets","4":"experience_Fv01sF4z816X.css","5":"experience_Fv01sF4z816X.js","6":"index.html","7":"meridecc.js"}}};</script><script type="text/javascript" src="../sites/it-en/files/js_assets/experience/_old_merideccd2e4.js?tk=db119c3dbd6883cc68d231348f3ce83c"></script><script type="text/javascript" src="../sites/it-en/files/js_assets/experience/experience_Fv01sF4z816Xe1b9.js?tk=50714007be8959d5b996f9fbb661b578"></script><script type="text/javascript" src="../sites/it-en/files/js_assets/experience/meridecc445f.js?tk=2b36b4a28de9fba64c1e8548e8add2d9"></script></div></div><div class="emissions-banner fixed-bottom text-center">
+      Fuel consumption and emission values of Huracán STO*; Fuel consumption combined: 13.9 l/100km  (WLTP); CO2-emissions combined: 331 g/km  (WLTP)
+    </div><script>
+  var Languages = Languages || {};
+  Languages = {
+    'current_lang': 'en',
+    'all': [{"code":"it","title":"italian","url_code":"it-en","href":"https:\/\/www.lamborghini.com\/it-en\/3d","active":false},{"code":"en","title":"english","url_code":"en-en","href":"https:\/\/www.lamborghini.com\/en-en\/3d","active":true},{"code":"zh-hans","title":"chinese","url_code":"cn-en","href":"https:\/\/www.lamborghini.com\/cn-en\/3d","active":false},{"code":"ja","title":"japanese","url_code":"jp-en","href":"https:\/\/www.lamborghini.com\/jp-en\/3d","active":false},{"code":"de","title":"german","url_code":"de-en","href":"https:\/\/www.lamborghini.com\/de-en\/3d","active":false},{"code":"es","title":"spanish","url_code":"es-en","href":"https:\/\/www.lamborghini.com\/es-en\/3d","active":false},{"code":"fr","title":"french","url_code":"fr-en","href":"https:\/\/www.lamborghini.com\/fr-en\/3d","active":false},{"code":"ru","title":"russian","url_code":"ru-en","href":"https:\/\/www.lamborghini.com\/ru-en\/3d","active":false}]
+  };
+</script></div><script src="../themes/custom/lambo_facelift_2019/libraries/mobile-detect/js/mobile-detect.minb5ff.js?rcspmn"></script>
+<script src="../themes/custom/lambo_facelift_2019/libraries/jquery/js/jquery.min05db.js?v=3.4.1"></script>
+<script src="../themes/custom/lambo_facelift_2019/libraries/jquery/js/jquery.inViewport.min05db.js?v=3.4.1"></script>
+<script src="../themes/custom/lambo_facelift_2019/libraries/lazyload/js/jquery.inview.minb5ff.js?rcspmn"></script>
+<script src="../themes/custom/lambo_facelift_2019/libraries/lazyload/js/lazyloadb5ff.js?rcspmn"></script>
+<script src="../themes/custom/lambo_facelift_2019/libraries/google-tag-manager/js/google-tag-managerb5ff.js?rcspmn"></script>
+<script src="../themes/custom/lambo_facelift_2019/libraries/global/js/utilsb5ff.js?rcspmn"></script>
+<script src="../themes/custom/lambo_facelift_2019/libraries/bs_breakpoints/js/bs-breakpoints.min368f.js?v=2.6.3"></script>
+<script src="../themes/custom/lambo_facelift_2019/libraries/bootstrap/js/popper.min16eb.js?v=4.3.1"></script>
+<script src="../themes/custom/lambo_facelift_2019/libraries/bootstrap/js/util16eb.js?v=4.3.1"></script>
+<script src="../themes/custom/lambo_facelift_2019/libraries/bootstrap/js/modal16eb.js?v=4.3.1"></script>
+<script src="../themes/custom/lambo_facelift_2019/libraries/bootstrap/js/collapse16eb.js?v=4.3.1"></script>
+<script src="../themes/custom/lambo_facelift_2019/libraries/bootstrap/js/dropdown16eb.js?v=4.3.1"></script>
+<script src="../themes/custom/lambo_facelift_2019/libraries/smooth-scrolling/js/smooth-scrollingb5ff.js?rcspmn"></script>
+<script src="../themes/custom/lambo_facelift_2019/libraries/smooth-scrolling/js/starterb5ff.js?rcspmn"></script>
+<script src="../themes/custom/lambo_facelift_2019/libraries/modals/js/searchb5ff.js?rcspmn"></script>
+<script src="../themes/custom/lambo_facelift_2019/libraries/modals/js/settingsb5ff.js?rcspmn"></script>
+<script src="../themes/custom/lambo_facelift_2019/libraries/modals/js/default-modalb5ff.js?rcspmn"></script>
+<script src="../themes/custom/lambo_facelift_2019/libraries/global/js/mainb5ff.js?rcspmn"></script>
+<script src="../themes/custom/lambo_facelift_2019/libraries/iframeLoader/js/iframeLoaderb5ff.js?rcspmn"></script>
+<script src="../themes/custom/lambo_facelift_2019/libraries/iframe/js/iframeb5ff.js?rcspmn"></script>
+<script src="../themes/custom/lambo_facelift_2019/libraries/hamburger/js/hamburgerb5ff.js?rcspmn"></script>
+<script src="../themes/custom/lambo_facelift_2019/libraries/overlay/js/overlayb5ff.js?rcspmn"></script>
+<script src="../themes/custom/lambo_facelift_2019/libraries/overlay/js/searchb5ff.js?rcspmn"></script>
+<script src="../themes/custom/lambo_facelift_2019/libraries/overlay/js/settingsb5ff.js?rcspmn"></script>
+<script src="../themes/custom/lambo_facelift_2019/libraries/header/js/menub5ff.js?rcspmn"></script>
+<script src="../themes/custom/lambo_facelift_2019/libraries/header/js/mobileb5ff.js?rcspmn"></script>
+<script>
+;(function(){
+  if(typeof angular == 'undefined') return;
+  var caPrivacy = document.querySelectorAll('.privacybox > p.ca-privacy');
+  var $caPrivacy = angular.element(caPrivacy);
+  if($caPrivacy.length > 0){
+    for(var i = 0; i < $caPrivacy.length; ++i){
+      var parent = $caPrivacy[i].parentNode.parentNode;
+      // if($caPrivacy[i].parentNode.classList.contains('privacybox')){
+        console.log(parent);
+        parent.insertBefore($caPrivacy[i].cloneNode(true), $caPrivacy[i].parentNode);
+        $caPrivacy[i].remove();
+      // }
+    }
+  }
+}());
+</script><style>
+section.privacy p.ca-privacy{
+  padding-left: 3rem;
+  font-size: 1.2rem;
+  line-height: 2.7rem;
+  margin-bottom: 2.5rem;
+}
+section.privacy span.pri > .ca-privacy{
+  display: none;
+}
+</style><script>;(function($){$(document).ready(function () { App.triggerEvent('::appReady') });}(jQuery));</script></body>
+<!-- Mirrored from www.lamborghini.com/en-en/3d by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 03 Oct 2022 19:30:15 GMT -->
+</html>

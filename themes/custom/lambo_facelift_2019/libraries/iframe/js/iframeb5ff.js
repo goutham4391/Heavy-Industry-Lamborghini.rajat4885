@@ -1,0 +1,1 @@
+"use strict";!function(e){window.iframeLoaderCustomBehavior=void 0===window.iframeLoaderCustomBehavior||null==window.iframeLoaderCustomBehavior||window.iframeLoaderCustomBehavior,e(window).on("::appReady",function(){window.iframeLoaderCustomBehavior&&new IframeLoader({container:"section.iframe-wrapper",openers:".iframe-opener"}).init()})}(jQuery,IframeLoader);
